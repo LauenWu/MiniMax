@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class MinMaxTest {
+public class MiniMaxTest {
     public static GameStateImpl state(int score) {
         return new GameStateImpl(score, null);
     }
